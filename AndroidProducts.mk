@@ -16,8 +16,11 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/rk3288_Android10/rk3288_Android10.mk \
+    $(LOCAL_DIR)/rk3288_Android11/rk3288_Android11.mk
 
 COMMON_LUNCH_CHOICES := \
         rk3288_Android10-userdebug \
         rk3288_Android10-user \
+        rk3288_Android11-userdebug \
+        rk3288_Android11-user
 
