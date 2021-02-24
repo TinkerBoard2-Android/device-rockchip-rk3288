@@ -18,7 +18,7 @@
 PRODUCT_SHIPPING_API_LEVEL := 30
 PRODUCT_DTBO_TEMPLATE := $(LOCAL_PATH)/dt-overlay.in
 PRODUCT_BOOT_DEVICE := ff0f0000.dwmmc
-
+PRODUCT_SDMMC_DEVICE := ff0c0000.dwmmc
 include device/rockchip/common/build/rockchip/DynamicPartitions.mk
 include device/rockchip/rk3288/rk3288_Android11/BoardConfig.mk
 include device/rockchip/common/BoardConfig.mk

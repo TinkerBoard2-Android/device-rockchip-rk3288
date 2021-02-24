@@ -106,6 +106,7 @@ BOARD_WIDEVINE_OEMCRYPTO_LEVEL := 3
 
 # camera enable
 BOARD_CAMERA_SUPPORT := true
+BOARD_CAMERA_SUPPORT_EXT := true
 ALLOW_MISSING_DEPENDENCIES=true
 
 # enable SVELTE malloc
@@ -117,6 +118,14 @@ BOARD_SUPPORT_VP9 := false
 BOARD_SUPPORT_VP6 := false
 BOARD_MEMTRACK_SUPPORT := true
 
+#for camera autofocus support
+CAMERA_SUPPORT_AUTOFOCUS=true
+
+# ANDROID HDMI
+BOARD_SHOW_HDMI_SETTING := true
+
+# for ethernet
+BOARD_HS_ETHERNET := true
 # Allow deprecated BUILD_ module types to get DDK building
 BUILD_BROKEN_USES_BUILD_COPY_HEADERS := true
 BUILD_BROKEN_USES_BUILD_HOST_EXECUTABLE := true
