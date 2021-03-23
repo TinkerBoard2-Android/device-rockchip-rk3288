@@ -18,6 +18,9 @@ PRODUCT_PACKAGES += \
     WallpaperPicker \
     Launcher3
 
+PRODUCT_PACKAGES += \
+    RockchipPinnerServiceArm
+
 #$_rbox_$_modify_$_zhengyang: add displayd
 PRODUCT_PACKAGES += \
     displayd \
