@@ -19,7 +19,7 @@ PRODUCT_PACKAGES += \
     Launcher3
 
 PRODUCT_PACKAGES += \
-    RockchipPinnerServiceArm
+    RockchipPinnerService
 
 #$_rbox_$_modify_$_zhengyang: add displayd
 PRODUCT_PACKAGES += \
